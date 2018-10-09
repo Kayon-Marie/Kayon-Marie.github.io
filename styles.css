@@ -1,0 +1,21 @@
+.body{
+    width: 100%;
+    display: grid;
+    grid-template: 20% 80% / 10% 30% 50% 10%;
+    grid-gap: 10px;
+}
+.header{
+    grid-column: 1 / span 4;
+    grid-row: 1;
+}
+
+.sidebar{
+    grid-column: 2 / span 1;
+    grid-row: 2;
+}
+
+.main-content{
+    grid-column: 3 / span 1;
+    grid-row: 2;
+}
+
