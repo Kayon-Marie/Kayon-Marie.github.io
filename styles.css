@@ -1,21 +1,21 @@
-body{
+body {
     display: grid;
     grid-template: 40% 60% / 5% 30% 60% 5%;
     padding: 20px 0;
     height: 100%;
-}
-
-ul.fa-ul {
+  }
+  
+  ul.fa-ul {
     padding: 0;
     margin: 20px;
-}
-
-ul li {
+  }
+  
+  ul li {
     margin: 0 0 20px 0;
-}
-
-/*Header Section of page*/
-header{
+  }
+  
+  /*Header Section of page*/
+  header {
     /*Header with name and job title*/
     /*Flex display used to center content*/
     grid-column: 2 / span 2;
@@ -29,96 +29,106 @@ header{
     align-items: center;
     text-align: center;
     padding-bottom: 50px;
-}
-
-header h1{
+  }
+  
+  header h1 {
     /*Name in header*/
     color: #ffffff;
     font-size: 32px;
-    font-family: 'Adamina', serif;
-}
-
-header p{
+    font-family: "Adamina", serif;
+  }
+  
+  header p {
     /*Job title in header*/
     color: #ffffff;
     font-size: 16px;
-    font-family: 'Actor', serif;
-}
-
-header div{
+    font-family: "Actor", serif;
+  }
+  
+  header div {
     /*Division wihin the header that holds the name and job title*/
     padding-left: 60px;
     padding-right: 60px;
     padding-bottom: 20px;
     border: 1px solid #ffffff;
-}
-
-/*Side bar with contact and social media information*/
-.sidebar{
+  }
+  
+  /*Side bar with contact and social media information*/
+  .sidebar {
     grid-column: 2 / span 1;
     grid-row: 2;
     padding: 10px 0 0 10px;
     margin: 20px 40px 0px 80px;
-    background: #FEF5E7;
-}
-
-/*Displayed image*/
-.sidebar img{
+    background: #fef5e7;
+  }
+  
+  /*Displayed image*/
+  .sidebar img {
     display: block;
     height: 170px;
     border-radius: 100px;
     margin-left: auto;
     margin-right: auto;
-}
-
-/*Contact section within the sidebar*/
-#contact{
+  }
+  
+  /*Contact section within the sidebar*/
+  #contact {
     width: 250px;
     padding-top: 10px;
     padding-bottom: 40px;
     border-bottom: 2px solid #000000;
-}
-#contact h2{
+  }
+  #contact h2 {
     font-size: 24px;
-    font-family: 'Amiri', serif; 
-}
-#contact a{
+    font-family: "Amiri", serif;
+  }
+  #contact a {
     text-decoration: none;
     color: #000000;
-}
-
-#social-media{
+  }
+  
+  #social-media {
     width: 250px;
-}
-#social-media h2{
+  }
+  #social-media h2 {
     font-size: 24px;
-    font-family: 'Amiri', serif; 
-}
-#social-media a{
+    font-family: "Amiri", serif;
+  }
+  #social-media a {
     color: rgb(214, 135, 108);
-}
-
-.main-content{
+  }
+  
+  .main-content {
     grid-column: 3 / span 1;
     grid-row: 2;
     padding: 0 10px 0 0;
     margin: 0 80px 0 0;
-}
-
-.main-content h2{
-    font-family: 'Bokor', serif;
-}
-
-#bio, #work-edu {
-    border-bottom: 2px solid #EAECEE;
-}
-
-#work-edu{
+  }
+  
+  .main-content h2 {
+    font-family: "Bokor", serif;
+  }
+  
+  #bio,
+  #knowledge{
+    border-bottom: 2px solid #eaecee;
+    padding: 5px 0 30px 0;
+  }
+  
+  #work-edu {
     display: flex;
-    flex-direction: row;
-}
-
-#skills ul{
+    justify-content: space-between;
+  }
+  
+  #work-edu .duration {
+    width: 100px;
+  }
+  
+  #work-edu .details {
+    width: 300px;
+  }
+  
+  #skills ul {
     column-count: 2;
-}
-
+  }
+  
