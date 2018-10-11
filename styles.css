@@ -105,10 +105,20 @@ header div{
     margin: 0 80px 0 0;
 }
 
-.main-content > h2{
+.main-content h2{
     font-family: 'Bokor', serif;
 }
 
 #bio, #work-edu {
     border-bottom: 2px solid #EAECEE;
 }
+
+#work-edu{
+    display: flex;
+    flex-direction: row;
+}
+
+#skills ul{
+    column-count: 2;
+}
+
