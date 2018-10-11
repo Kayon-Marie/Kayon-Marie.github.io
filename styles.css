@@ -5,10 +5,27 @@ body{
     height: 100%;
 }
 
+ul.fa-ul {
+    padding: 0;
+    margin: 20px;
+}
+
+ul.fab-ul {
+    padding: 0;
+    margin: 20px;
+}
+
+ul li {
+    margin: 0 0 20px 0;
+}
+
+/*Header Section of page*/
 header{
+    /*Header with name and job title*/
+    /*Flex display used to center content*/
     grid-column: 2 / span 2;
     grid-row: 1;
-    background: #C70039;
+    background: rgb(117, 62, 62);
     height: 200px;
     width: 100%;
     display: flex;
@@ -20,32 +37,75 @@ header{
 }
 
 header h1{
+    /*Name in header*/
     color: #ffffff;
     font-size: 32px;
-    font-family: 'Adamina';
+    font-family: 'Adamina', serif;
 }
 
 header p{
+    /*Job title in header*/
     color: #ffffff;
     font-size: 16px;
-    font-family: 'Actor';
+    font-family: 'Actor', serif;
 }
 
 header div{
+    /*Division wihin the header that holds the name and job title*/
     padding-left: 60px;
     padding-right: 60px;
     padding-bottom: 20px;
     border: 1px solid #ffffff;
 }
 
+/*Side bar with contact and social media information*/
 .sidebar{
     grid-column: 2 / span 1;
     grid-row: 2;
-    float: right;
+    padding: 10px 0 0 10px;
+    margin: 20px 40px 0px 80px;
+    background: #FEF5E7;
+}
+
+/*Displayed image*/
+.sidebar img{
+    display: block;
+    height: 170px;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Contact section within the sidebar*/
+#contact{
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #000000;
+}
+#contact h2{
+    font-size: 24px;
+    font-family: 'Amiri', serif; 
+}
+#contact a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#social-media{
+    width: 250px;
+}
+#social-media h2{
+    font-size: 24px;
+    font-family: 'Amiri', serif; 
+}
+#social-media a{
+    color: rgb(214, 135, 108);
 }
 
 .main-content{
     grid-column: 3 / span 1;
     grid-row: 2;
+    border: 0px 0px 2px 0px;
 }
 
